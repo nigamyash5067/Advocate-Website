@@ -1,0 +1,10 @@
+Element	Color	Hex Code	Description
+Background overlay	Teal / Dark Cyan	#00454f	Main hero background color
+Primary CTA button	Bright Red	#e31837	"Talk to lawyer" button, dots
+Active status dot	Lime Green	#22c55e	Indicates online lawyers
+Card icon (Video Call)	Blue	#3b82f6	Blue for first floating card
+Card icon (Call)	Amber / Yellow	#facc15	Yellow for second card
+Card icon (Note / Form)	Red	#ef4444	Red for third card
+Secondary text	Gray	#4b5563	Used in small descriptions
+Avatar ring	White	#ffffff	Border around profile avatars
+Card background	White	#ffffff	Background of floating cards
