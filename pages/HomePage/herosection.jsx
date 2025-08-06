@@ -7,10 +7,10 @@ const HeroSection = () => {
       style={{ backgroundImage: "url('/Frame-46.png')" }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0  "></div>
+      <div className="absolute inset-0"></div>
 
       {/* Content Container */}
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between h-full px-8 md:px-16 lg:px-24">
+      <div className="relative z-5 flex flex-col md:flex-row items-center justify-between h-full px-8 md:px-16 lg:px-24">
         {/* Left Content */}
         <div className="text-white text-center md:text-left md:w-1/2 mt-20 md:mt-0">
           <p className="text-xl md:text-2xl mb-2">Lorem ipsum dolor sit</p>
@@ -38,20 +38,19 @@ const HeroSection = () => {
         </div>
 
         {/* Right Content - Lawyer Image and Contact Cards */}
-        <div className="relative w-full md:w-1/2 flex justify-center md:justify-end mt-12 md:mt-0">
+        <div className="relative w-full md:w-1/2 flex justify-center md:justify-end mt-12 md:mt-0 order-first md:order-last">
           {/* Lawyer Image (positioned absolutely to overlap) */}
-          <div className="absolute top-[-150px] lg:top-[-200px] xl:top-[-250px] right-0 w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] rounded-full overflow-hidden bg-gray-300 shadow-2xl">
+          <div className="w-64 h-64 md:w-0 md:h-80 lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] rounded-full overflow-hidden bg-gray-300 shadow-2xl">
             {/* Replace with your lawyer image */}
             <img
-              src=" /nn.jpg "
+              src="/nn.jpg"
               alt="Lawyer"
               className="w-full h-full object-cover object-top"
             />
           </div>
 
           {/* Contact Cards (positioned relatively to the right content div or absolutely within HeroSection) */}
-         <div className="absolute right-101 top-[-3rem] flex flex-col gap-4">
-
+          <div className="absolute right-101 top-[-3rem] flex flex-col gap-4">
             {/* Card 1 */}
             <div className="bg-white rounded-lg p-4 md:p-6 shadow-xl flex items-center space-x-4 w-[280px]">
               <div className="bg-blue-100 p-3 rounded-full">
